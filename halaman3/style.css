@@ -1,0 +1,55 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url(../Asset/Image/Bahtera.jpg);
+    background-size: cover;
+    font-size: 20px;
+    font-family: times new roman;
+    background-attachment: fixed;
+    display: flex;
+  }
+  
+  nav {
+    height: 100%;
+    position: fixed;
+  }
+  
+  .navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    width: 150px;
+    font-weight: 400;
+    /* height: 100%; */
+    z-index: 1000;
+  }
+  
+  .navbar-nav {
+    margin-bottom: 250px;
+  }
+  
+  .nav-item {
+    padding: 5px 0;
+  }
+  
+  ul {
+    flex-direction: column;
+  }
+  
+  .container {
+    height: auto;
+    text-align: center;
+  }
+  
+  .container div {
+    height: auto;
+    width: 100%;
+    background-color: rgba(240, 248, 255, 0.479);
+  }
+  
+  .container div div img {
+    width: 300px;
+    margin-top: 50px;
+  }
+  

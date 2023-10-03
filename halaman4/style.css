@@ -1,0 +1,42 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url(../Asset/Image/sunset.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    font-family: times new roman;
+    font-size: 20px;
+}
+
+.navbar {
+    height: 100px;
+}
+
+.nav-link.active {
+    font-size: 25px;
+}
+
+.nav-item{
+    margin: 0px 20px;
+}
+
+.container {
+    padding-top: 200px;
+    height: 150px;
+    text-align: center;
+}
+
+.container div {
+    width: 100%;
+    height: auto;
+    background-color: #ffffff5a;
+}
+
+.container div div {
+    display: block;
+}
+
+.container div div img {
+    width: 300px;
+    margin-top: 50px;
+}

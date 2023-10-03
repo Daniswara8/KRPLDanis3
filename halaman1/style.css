@@ -1,0 +1,48 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: times new roman;
+  font-size: 20px;
+  background-image: url(../Asset/Image/piramid.jpg);
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.navbar {
+  height: 100px;
+}
+
+.nav-item a {
+  font-size: 25px;
+  margin: 0px 20px;
+}
+
+.beranda {
+  display: none;
+  background-color: aqua;
+}
+
+.container {
+  margin-bottom: 200px;
+  height: 150px;
+  text-align: center;
+}
+
+.container div {
+  width: 100%;
+  height: auto;
+}
+
+.container div div {
+  display: block;
+}
+
+.container div div img {
+  width: 300px;
+  margin-top: 50px;
+}
+
+.bawah {
+  background-color: rgba(255, 255, 255, 0.8);
+  padding-bottom: 200px;
+}
